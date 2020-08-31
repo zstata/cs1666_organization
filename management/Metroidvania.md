@@ -1,11 +1,9 @@
 # CS1666 Metroidvania Managment weeks
 
 1. 9/2 - 9/8
-	* Manager:
+	* Manager: Kristofer Leo Elmarsson
 	* Goals:
-		1. GOAL1
-		1. GOAL2
-		1. GOAL3
+		1. Establish Teams
 		...
 1. 9/9 - 9/15
 	* Manager:
