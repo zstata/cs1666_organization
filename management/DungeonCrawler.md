@@ -1,12 +1,11 @@
 # CS1666 DungeonCrawler Managment weeks
 
 1. 9/2 - 9/8
-	* Manager:
+	* Manager: Bryce Ryan
 	* Goals:
-		1. GOAL1
-		1. GOAL2
-		1. GOAL3
-		...
+		1. Set up organization repo
+		2. Organize advanced topic subteams
+		3. Lay out the goals and road map for the term
 1. 9/9 - 9/15
 	* Manager:
 	* Goals:
