@@ -16,7 +16,7 @@ https://github.com/Speedrun-Game-Dev-Pitt-CS1666-Fall-2020/Speedrun
 		* Personal Fork URL: https://github.com/spap975/Speedrun
 	* Ryan Yang
 		* Pitt ID: rcy7
-		* Github Username: rcy7
+		* Github Username: ruzakiff
 		* Personal Fork URL: https://github.com/Ruzakiff/Speedrun
 * Advanced Topic Subteam 2 (Procedural Level Generation)
 	* Ryan Durkoske
