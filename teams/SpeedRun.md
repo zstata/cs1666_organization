@@ -14,10 +14,10 @@ https://github.com/Speedrun-Game-Dev-Pitt-CS1666-Fall-2020/Speedrun
 		* Pitt ID: sdm74
 		* Github Username: spap975
 		* Personal Fork URL: https://github.com/spap975/Speedrun
-	* StudentName
-		* Pitt ID:
-		* Github Username:
-		* Personal Fork URL:
+	* Ryan Yang
+		* Pitt ID: rcy7
+		* Github Username: rcy7
+		* Personal Fork URL: https://github.com/Ruzakiff/Speedrun
 * Advanced Topic Subteam 2 (Procedural Level Generation)
 	* Ryan Durkoske
 		* Pitt ID: rjd68
@@ -27,10 +27,10 @@ https://github.com/Speedrun-Game-Dev-Pitt-CS1666-Fall-2020/Speedrun
 		* Pitt ID: cjk94
 		* Github Username: cjk94
 		* Personal Fork URL: https://github.com/cjk94/Speedrun
-	* StudentName
-		* Pitt ID:
-		* Github Username:
-		* Personal Fork URL:
+	* Andrew Francioni
+		* Pitt ID: ajf109
+		* Github Username: ajf109
+		* Personal Fork URL: https://github.com/ajf109/Speedrun
 * Advanced Topic Subteam 2 (Networking)
 	* Jacob Musone
 		* Pitt ID: jpm160
@@ -40,14 +40,14 @@ https://github.com/Speedrun-Game-Dev-Pitt-CS1666-Fall-2020/Speedrun
 		* Pitt ID: cas380
 		* Github Username: cas380
 		* Personal Fork URL: https://github.com/cas380/Speedrun
-	* StudentName
-		* Pitt ID:
-		* Github Username:
-		* Personal Fork URL:
-	* StudentName
-		* Pitt ID:
-		* Github Username:
-		* Personal Fork URL:
+	* Alexander Pujols
+		* Pitt ID: alp203
+		* Github Username: alp203
+		* Personal Fork URL: https://github.com/alp203/Speedrun
+	* Lucas Chronister
+		* Pitt ID: lpc17
+		* Github Username: lpc17
+		* Personal Fork URL: https://github.com/lpc17/Speedrun 
 
 ## Game Description
 
