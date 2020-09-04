@@ -50,29 +50,29 @@ https://github.com/Speedrun-Game-Dev-Pitt-CS1666-Fall-2020/Speedrun
 		* Personal Fork URL: https://github.com/lpc17/Speedrun 
 
 ## Game Description
-
+Our game is a 2D platformer in which multiple players race against each other to get to the finish line first. The concept is a race to the bottom of a cave for treasure, so rather than left-to-right the general direction of the race is from top-to-bottom. Each race will be procedurally generated, with platforms and obstacles placed to create a challenging yet still beatable course. A physics system will promote interactivity between both players with each other and players with the course.
 
 ## General Milestones
 
-* Milestone1
-* Milestone2
-* Milestone3
+* Create a unique, standalone level each time players start a race in the game
+* Allow for multiple players (2-4?) to play and interact with each other at the same time
+* Create responsive platformer movement (arrow keys?) that is affected by physical interactions with the course and other players
 ...
 
 ## Advanced Topics
 
-* AdvancedTopic1
-	* Milestone1
-	* Milestone2
-	* Milestone3
+* Physics System
+	* Players will be able to move their player character responsively through arrow keys
+	* Players will not be able to move through each other or obstacles through a rigidbody system
+	* Objects that can be moved (Players characters and possibly some obstacles) will have forces applied on them that reflect how they bump and move into each other as well as gravity
 	...
-* AdvancedTopic2
-	* Milestone1
-	* Milestone2
-	* Milestone3
+* Procedural Level Generation
+	* Implement basic cave generation
+	* Coordinate with physics team to make sure course is completable/fun
+	* Add different biomes/obstacles to terrain
 	...
-* AdvancedTopic3
-	* Milestone1
-	* Milestone2
-	* Milestone3
+* Networking
+	* Get the server and client working and talking to each other
+	* Get at least 4 players on the same server and properly moving on each other's screen
+	* Make sure other objects are also synced properly on each other's screen
 	...
