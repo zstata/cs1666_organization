@@ -24,7 +24,7 @@ https://github.com/ElmaK141/Metroidvania_CS1666
 		* Personal Fork URL: https://github.com/AlmondDust/Metroidvania_CS1666
 		
 * Artificial Intelligence
-	* Julian P.
+	* Julian Parayil
 		* Pitt ID: jtp59
 		* Github Username: tgrtgak
 		* Personal Fork URL: https://github.com/tgrtgak/Metroidvania_CS1666
