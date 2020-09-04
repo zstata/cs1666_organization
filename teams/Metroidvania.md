@@ -32,10 +32,10 @@ https://github.com/ElmaK141/Metroidvania_CS1666
 		* Pitt ID: gam81
 		* Github Username: gam81
 		* Personal Fork URL: https://github.com/gam81/Metroidvania_CS1666
-	* StudentName
-		* Pitt ID:
-		* Github Username:
-		* Personal Fork URL: https://github.com/EmilKjenstad/Metroidvania_CS1666
+	* Joey Valentino
+		* Pitt ID: 
+		* Github Username: jov34
+		* Personal Fork URL: https://github.com/jov34/Metroidvania_CS1666
 		
 * Procedural Generation
 	* Noah Vienneau
@@ -46,10 +46,10 @@ https://github.com/ElmaK141/Metroidvania_CS1666
 		* Pitt ID: jmb416
 		* Github Username: benderjm
 		* Personal Fork URL: https://github.com/benderjm/Metroidvania_CS1666
-	* StudentName
-		* Pitt ID:
-		* Github Username:
-		* Personal Fork URL: https://github.com/EmilKjenstad/Metroidvania_CS1666
+	* Zach Hicks
+		* Pitt ID: zsh5
+		* Github Username: zaryhicks
+		* Personal Fork URL: https://github.com/zaryhicks/Metroidvania_CS1666
 
 ## Game Description
 A metroidvania with a focus on ranged combat and movement. The weapons and gadgets unlocked compliment the movement system and allows for intricate navigation. Sections of proceduraly generated areas branch predesigned locations for a mix of purposefully designed world design and procedurally generated areas inbetween. 
