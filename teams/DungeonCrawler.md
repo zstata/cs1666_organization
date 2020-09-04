@@ -54,7 +54,7 @@ https://github.com/DungeonCrawlerCS1666/DungeonCrawler
 		* Personal Fork URL: https://github.com/tpossessky/DungeonCrawler
 
 ## Game Description
-A high fantasy hack and slash dungeon crawler with the ability to create parties and play with others PvE.  Dungeons will be procedurally generated mazes that increase in difficulty as the player goes deeper.  The layout will be floor based, and the players advance to the next floor by finding the stairs that are randomly placed somewhere on the map.  The end goal is to reach the bottom/top floor of the dungeon, which will be a "boss room" that will contain a difficult encounter, be it a lot of enemies or a specified boss.  From this the player will get high tier loot that they can then use to take on more difficult dungeons to get even better loot, and so on and so forth.  Loot is procedurally generated and will follow a common/rare/epic/legendary rank system.  Loot can drop randomly from defeated enemies as well as from chests that can be found scattered around the map.  Combat will follow a real time hack and slash format, with players using weapons/skills to deal damage to enemies.  Enemies will each have their own AI and behaviors, as well as a game master AI that will track what enemies are giving the players trouble, what they are doing well against, and dynamically adjust the enemy types, amounts, and locations to ensure a sufficiently difficult experience.
+A high fantasy hack and slash dungeon crawler with the ability to create parties and play with others PvE.  Dungeons will be procedurally generated mazes of rooms that increase in difficulty as the player goes deeper.  The layout will be floor based, and the players advance to the next floor by finding the stairs that are randomly placed somewhere on the map.  The end goal is to reach the bottom/top floor of the dungeon, which will be a "boss room" that will contain a difficult encounter, be it a lot of enemies or a specified boss.  From this the player will get high tier loot that they can then use to take on more difficult dungeons to get even better loot, and so on and so forth.  Loot is procedurally generated and will follow a common/rare/epic/legendary rank system.  Loot can drop randomly from defeated enemies as well as from chests that can be found scattered around the map.  Combat will follow a real time hack and slash format, with players using weapons/skills to deal damage to enemies.  Enemies will each have their own AI and behaviors, as well as a game master AI that will track what enemies are giving the players trouble, what they are doing well against, and dynamically adjust the enemy types, amounts, and locations to ensure a sufficiently difficult experience.
 ## General Milestones
 * Milestone 1 - Game engine
 	* System of tracking object placement in the 2D environment
@@ -82,17 +82,23 @@ A high fantasy hack and slash dungeon crawler with the ability to create parties
 ## Advanced Topics
 
 * Procedural Generation
-	* Milestone1
-	* Milestone2
-	* Milestone3
-	...
+	* Implement ability to algorithmically place rooms, instead of by hand
+	* Implement map "collision detection" so rooms do not overlap
+	* Establish bounds of the placement algorithm - min/max rooms per floor, size of each floor, min/max distance between rooms, etc)
+	* Design an algorithm that will plan out rooms in a maze-like configuration (think Pokemon Mystery Dungeon maps)
+	* Implement algo and fine tune to give us the correct map look and feel
+	* Design a means to randomly generate player level appropriate loot that is randomized
 * Network Multiplayer
-	* Milestone1
-	* Milestone2
-	* Milestone3
-	...
+	* Establish stable and secure peer to peer connection
+	* Implement communication needed so players can see each other move around the map accurately
+	* Implement synced up enemies and locations between players
+	* Implement combat over network, i.e. 2 players damaging the same enemy at once
+	* Implement loot mechanics over network - either instanced or non
 * Game AI
-	* Milestone1
-	* Milestone2
-	* Milestone3
-	...
+	* Create a basic tracking enemy AI so other parts of the game can be tested
+	* Define how many distinct types of enemies we would like as well as their behaviors
+	* Implement all of said behaviors in their own separate AI
+	* Game Master AI
+		* Implement system to track and understand how the players are dealing with different enemy types
+		* Ability to draw conclusions from this info, be it in a ML format or baked into the AI more simply, and place enemies accordingly
+		* Ability to update conclusions and make sure that the AI is not fueling its own conclusions (giving more of enemy X leads to even more weight towards enemy X
