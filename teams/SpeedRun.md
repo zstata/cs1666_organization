@@ -71,9 +71,11 @@ Our game is a 2D platformer in which multiple players race against each other to
 	* Implement basic cave generation, with multiple rooms(4+)/layers(2+). The cave would look like an anthill with a single tunnel; players will have to go left, right, down, and sometimes even back up through a tunnel filled with various obstacles. Overall, the goal is for each player to get to the bottom of the "anthill" before the other players. Each run should take at least a minute or two to complete.
 	* Coordinate with physics team to make sure the generated course is completable, challenging, and sufficiently unique from previous runs. For example, generated levels should not all have the same room layout (some will go down, far right, then down; some will go left, down, left, up,right then down).
 	* Add different biomes/obstacles to terrain. Individual rooms will be themed to have certain types of obstacles---icy floors, rolling rocks, springtraps. Obstacles won't be mixed haphazardly. 
+	* Work with Networking team to allow for the ability to save and exchange randomly generated levels to be played again
 	...
 * Networking
 	* Get the server and client working and talking to each other
 	* Get at least 4 players on the same server and properly moving on each other's screen
 	* Make sure other objects are also synced properly on each other's screen
+	* Work with Prcedural Level Generation team to allow for the ability to save and exchange randomly generated levels to be played again
 	...
