@@ -10,17 +10,12 @@ https://github.com/1666-Puzzle-Stealth/StealthPuzzle
 	* Marko Djurdjevic
 		* Pitt ID: mad351
 		* Github Username: Markoozy
-		* Personal Fork URL:
+		* Personal Fork URL: https://github.com/Markoozy/StealthPuzzle
 
 	* Emma Howard
 		* Pitt ID: eeh58
 		* Github Username: eh0w
-		* Personal Fork URL:
-
-	* Erik Houseworth
-		* Pitt ID: erh100
-		* Github Username: altaurus321
-		* Personal Fork URL:
+		* Personal Fork URL: https://github.com/eh0w/StealthPuzzle
 
 	* Connor Robinette
 		* Pitt ID: cjr84
@@ -42,24 +37,29 @@ https://github.com/1666-Puzzle-Stealth/StealthPuzzle
 	* Patrick Rhee
 		* Pitt ID: psr15
 		* Github Username: patrickrhee
-		* Personal Fork URL:
+		* Personal Fork URL: https://github.com/patrickrhee/StealthPuzzle
 
 	* Andrew Thompson
 		* Pitt ID: ant118
 		* Github Username: and-thomp
-		* Personal Fork URL:
+		* Personal Fork URL: https://github.com/and-thomp/StealthPuzzle
 
 * Advanced Topic Subteam 3: Level Generation
 
 	* Chris Godfrey
 		* Pitt ID: ctg18
 		* Github Username: CGOD737
-		* Personal Fork URL:
+		* Personal Fork URL: https://github.com/CGOD737/StealthPuzzle.git
 
 	* Celest Hayden
 		* Pitt ID: chh147
 		* Github Username: celhhayden
-		* Personal Fork URL:
+		* Personal Fork URL: https://github.com/celhhayden/StealthPuzzle
+
+	* Erik Houseworth
+		* Pitt ID: erh100
+		* Github Username: altaurus321
+		* Personal Fork URL: https://github.com/altaurus321/StealthPuzzle
 
 ## Game Description
 
@@ -80,13 +80,14 @@ Objectives for the team to complete will range from extracting VIPs, stealing se
 
 ## General Milestones
 
-* Agent can move around in an environment
-* Hacker can see simplified representation of facility
+* Agent can move around in environment and is stopped by walls and obstacles.
+* Hacker can see simplified representation of facility in one window
 * Hacker has multiple windows
-* Hacker can access subsystems
+* Hacker can access subsystems (Cameras, computers, security lasers, guard trackers, etc.)
+* Agent can interact with systems (lockpick doors, etc.)
 * Agent can give Hacker access to systems
-* Both players have puzzles to solve to access systems
-* Collaborative puzzles
+* Both players have puzzles to solve to access systems (word search for password, torn document puzzle, simon says, scrambled wires, lockpicking)
+* Collaborative puzzles (Hacker/Agent has information that the other doesn't, must share information to solve, like a maze where only the hacker sees the obstacles and must guide Agent through)
 * Agent can interact with guards (KO, kill, etc).
 
 ...
@@ -94,20 +95,24 @@ Objectives for the team to complete will range from extracting VIPs, stealing se
 ## Advanced Topics
 
 * AI
-
-	* Milestone1
-	* Milestone2
-	* Milestone3
-	...
+    
+    * Stationary cameras/gun turrets.
+    * Guards on set patrol paths with FOV
+    * Guards respond to perceived threats and alarms
+    * Guards dynamically form new patrol paths in areas where Agent was detected
+    * Guards with different behaviors and states (Alert, Lazy, Normal, Underpaid fat security guard vs Highly paid merc)
+    ...
 * Network/Co-op
 
-	* Milestone1
-	* Milestone2
-	* Milestone3
-	...
+    * Depending on the host, Hacker and Agent can affect each other's games.
+    * Low latency collaborative real time synchronous puzzles (If players need to press things at the same time)
+    * Server that hosts levels and stores player times and stats.
+    * 
+    ...
 * Level Generation
 
-	* Milestone1
-	* Milestone2
-	* Milestone3
-	...
+    * Grid based level creation where a particular object inhabits one box (doors, walls, windows) anywhere from 20x20 to 100x100
+    * Generate random objectives based on rooms
+    * Generate random guard patrol routes
+    * Generate random subsystem and local network layouts.
+    * Generate random puzzles
