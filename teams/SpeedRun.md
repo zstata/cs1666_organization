@@ -77,5 +77,5 @@ Our game is a 2D platformer in which multiple players race against each other to
 	* Get the server and client working and talking to each other
 	* Get at least 4 players on the same server and properly moving on each other's screen
 	* Make sure other objects are also synced properly on each other's screen
-	* Work with Prcedural Level Generation team to allow for the ability to save and exchange randomly generated levels to be played again
+	* Work with Procedural Level Generation team to allow for the ability to save and exchange randomly generated levels to be played again
 	...
