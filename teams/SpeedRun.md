@@ -50,26 +50,27 @@ https://github.com/Speedrun-Game-Dev-Pitt-CS1666-Fall-2020/Speedrun
 		* Personal Fork URL: https://github.com/lpc17/Speedrun 
 
 ## Game Description
-Our game is a 2D platformer in which multiple players race against each other to get to the finish line first. The concept is a race to the bottom of a cave for treasure, so rather than left-to-right the general direction of the race is from top-to-bottom. Each race will be procedurally generated, with platforms and obstacles placed to create a challenging yet still beatable course. A physics system will promote interactivity between both players with each other and players with the course.
+Our game is a 2D platformer in which multiple players race against each other to get to the finish line first. The goal isn't based on high scores or fastest times---this game is a multiplayer platformer race in real time. The concept of the game is a race to the bottom of a cave for treasure, so rather than left-to-right the general direction of the race is from top-to-bottom. Each race will be procedurally generated, with platforms and obstacles placed to create a challenging yet still beatable course. A physics system will promote interactivity between both players with each other and players with the course. An analagous game would be Fun Run, but this game will have unique courses per run so that players will have a unique experience per play of the game.
 
 ## General Milestones
 
 * Create a unique, standalone level each time players start a race in the game
+* Obstacles will include at least springtraps that launch players up, rolling/bouncing rocks that knock players around, and slippery terrain that have varying levels of friction. Moving platforms will also exist of course.
 * Allow for multiple players (2-4?) to play and interact with each other at the same time
-* Create responsive platformer movement (arrow keys?) that is affected by physical interactions with the course and other players
+* Create responsive platformer movement (arrow keys and WASD) that is affected by physical interactions with the course and other players
 ...
 
 ## Advanced Topics
 
 * Physics System
-	* Players will be able to move their player character responsively through arrow keys
-	* Players will not be able to move through each other or obstacles through a rigidbody system
-	* Objects that can be moved (Players characters and possibly some obstacles) will have forces applied on them that reflect how they bump and move into each other as well as gravity
+	* Players characters will have forces applied on them that reflect how obstacles and other players bump into them + gravity
+	* Varying pieces of terrain will apply different levels of friction on players and other kinematic objects (bouncing balls/rocks and potentially other obstacles)
+	* The motion of moving obstacles (bouncing balls/rocks) will be governed by physical rules of collisions and gravity
 	...
 * Procedural Level Generation
-	* Implement basic cave generation
-	* Coordinate with physics team to make sure course is completable/fun
-	* Add different biomes/obstacles to terrain
+	* Implement basic cave generation, with multiple rooms/layers. The cave would look like an anthill with a single tunnel; players will have to go left, right, down, and sometimes even back up through a tunnel filled with various obstacles. Overall, the goal is for each player to get to the bottom of the "anthill" before the other players. Each run should take at least a minute or two to complete.
+	* Coordinate with physics team to make sure the generated course is completable, challenging, and sufficiently unique from previous runs. For example, generated levels should not all have the same room layout (some will go down, far right, then down; some will go left, down, left, up,right then down).
+	* Add different biomes/obstacles to terrain. Individual rooms will be themed to have certain types of obstacles---icy floors, rolling rocks, springtraps. Obstacles won't be mixed haphazardly. 
 	...
 * Networking
 	* Get the server and client working and talking to each other
