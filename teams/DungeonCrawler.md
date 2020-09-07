@@ -78,7 +78,7 @@ A high fantasy hack and slash dungeon crawler with the ability to create parties
 	* Procedurally generated loot
 	* Intelligent enemy placement
 	* Expanded enemy AI and tactics
-	* Party based play with 2-4 people
+	* Party based play with 1-4 people
 	* Loot management between people
 ...
 
