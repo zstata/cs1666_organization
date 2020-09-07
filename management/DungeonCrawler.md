@@ -63,14 +63,14 @@
 		1. GOAL3
 		...
 1. 11/4 - 11/10
-	* Manager:
+	* Manager: Andrew Preston
 	* Goals:
 		1. GOAL1
 		1. GOAL2
 		1. GOAL3
 		...
 1. 11/11 - 11/17
-	* Manager:
+	* Manager: Tristin Butz
 	* Goals:
 		1. GOAL1
 		1. GOAL2
