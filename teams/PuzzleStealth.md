@@ -20,19 +20,19 @@ https://github.com/1666-Puzzle-Stealth/StealthPuzzle
 	* Connor Robinette
 		* Pitt ID: cjr84
 		* Github Username: ConnorRobinette
-		* Personal Fork URL:
+		* Personal Fork URL: https://github.com/ConnorRobinette/StealthPuzzle
 
 	* Anna Beach
 		* Pitt ID: arb223
 		* Github Username: arbeach123
-		* Personal Fork URL:
+		* Personal Fork URL: https://github.com/arbeach123/StealthPuzzle
 
 * Advanced Topic Subteam 2: Network Co-op
 
 	* Turner Halligan
 		* Pitt ID: tth16
 		* Github Username: turnerhusa
-		* Personal Fork URL:
+		* Personal Fork URL: https://github.com/turnerhusa/StealthPuzzle
 
 	* Patrick Rhee
 		* Pitt ID: psr15
