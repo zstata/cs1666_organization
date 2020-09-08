@@ -57,7 +57,9 @@ A metroidvania with a focus on ranged combat and movement. The weapons and gadge
 ## General Milestones
 
 * Develop a moving prototype
-* Implement weaponry
+* Implement weaponry (Melee and Ranged)
+	* Melee weapon
+	* Ranged weapons
 * Implement enemy AI
 * Implement procedurally generated sections
 * Design the world
@@ -68,19 +70,37 @@ A metroidvania with a focus on ranged combat and movement. The weapons and gadge
 ## Advanced Topics
 
 * Physics Engine
-	* Simulate Gravity
 	* Rigid Body Collision
-	* Implement Advanced Movement Gadgets
-		** Grappling Hook
-		** Rocket Launcher
+		* Player character with the environment, enemies, and projectiles
+		* Melee weaponry with environment and enemies
+		* Projectiles from ranged weaponry on environment and enemies
+	* Movement
+		* Have gravity at a level which makes movement fun (ligher than Earth)
+		* Implement recoil on ranged weaponry and upon impact with melee weaponry
+		* Implement grappling with a the ability to hook onto any surface and move in a circular fashion from the point of rotation at an adjustible distance
+		* Unique movement options like air dash and double jump
+		* Momentum increasing maximum speed after continuous uninterupted directional movement
+		
 	...
 * Artificial Intelligence
 	* Implement basic enemy AI
-	* Have AI react to the geometry of the levels
+		* Some are basic roamers
+		* Some can react to the player's attack by guarding or dodging
+		* Enemies will move on a system that will allow them movement no matter how the level is generated
+		* Chasers that have similar movement abilities to the player and can hunt down the player 
+		* A similar enemy but instead of hunting the player, the player hunts them
 	* Implemnt boss AI
+		* The boss will be far more intelligent than the basic enemies
+		* It will have the ability to strategize and learn throughout the encounter
+		* At different health points, it will change "phases"
+		
 	...
 * Procedural Generation 
+	* The entire game is not going to be procedurally generated, instead there will be points of premade areas and PG pathways between these premade areas
 	* Implement a procedural generation system
 	* Make sure all generated levels are playable
+		* Can the player reach from point to point with the powerups they have or can access?
 	* Create a system that generates levels according to the equipment/powerups the player has
+		* The system will have to know where certain key equipments are in the map, which is decided manually, and generate appropriately. 
+			* Ex: The pathway from powerup 1 and 2 can generate a pathway that requires powerup 1 but not 2. Shortcuts that require both are allowed as long as there is a way to get from poweup 1 to powerup 2 with just powerup 1.
 	...
