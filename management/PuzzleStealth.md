@@ -71,7 +71,7 @@
 		1. GOAL3
 		...
 11. 11/11 - 11/17
-	* Manager:
+	* Manager: NONE
 	* Goals:
 		1. GOAL1
 		1. GOAL2
