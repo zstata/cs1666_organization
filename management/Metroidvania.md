@@ -8,9 +8,9 @@
 1. 9/9 - 9/15
 	* Manager: Julian Parayil
 	* Goals:
-		1. GOAL1
-		1. GOAL2
-		1. GOAL3
+		1. Display Credits via SDL
+		1. N/A
+		1. N/A
 		...
 1. 9/16 - 9/22
 	* Manager: Noah Vienneau
