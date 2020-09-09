@@ -10,9 +10,7 @@
 2. 9/9 - 9/15
 	* Manager: Emma Howard
 	* Goals:
-		1. GOAL1
-		1. GOAL2
-		1. GOAL3
+		A. Create game credits application
 		...
 3. 9/16 - 9/22
 	* Manager: Andrew Thompson
