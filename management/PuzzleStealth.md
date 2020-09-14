@@ -41,7 +41,7 @@
 		1. GOAL3
 		...
 7. 10/15 - 10/20
-	* Manager: Anna Beach
+	* Manager: NONE
 	* Goals:
 		1. GOAL1
 		1. GOAL2
@@ -69,7 +69,7 @@
 		1. GOAL3
 		...
 11. 11/11 - 11/17
-	* Manager: NONE
+	* Manager: Anna Beach
 	* Goals:
 		1. GOAL1
 		1. GOAL2
