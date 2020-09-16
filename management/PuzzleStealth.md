@@ -15,9 +15,10 @@
 3. 9/16 - 9/22
 	* Manager: Andrew Thompson
 	* Goals:
-		1. GOAL1
-		1. GOAL2
-		1. GOAL3
+		1. Player movement with a static camera
+		2. Player sprite
+		3. walls and stuff
+		4. Game loop
 		...
 4. 9/23 - 9/29
 	* Manager: Celest Hayden
