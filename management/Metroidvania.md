@@ -17,7 +17,7 @@
 	* Goals:
 		1. Draw Sprite to screen
 		1. Implement basic movement and basic physics (i.e jumping)
-		1. Implement collision detection
+		1. Start work on collision detection
 		...
 1. 9/23 - 9/29
 	* Manager: Giovanni Meiser
