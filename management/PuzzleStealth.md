@@ -15,9 +15,9 @@
 3. 9/16 - 9/22
 	* Manager: Andrew Thompson
 	* Goals:
-		1. GOAL1
-		1. GOAL2
-		1. GOAL3
+		1. Player movement with a static camera - player will be in the center of the screen with the map moving around them
+		2. Player sprite - design the sprite to display in the middle of the screen during gameplay
+		3. Game loop - a basic main menu (game start), player moves, end game
 		...
 4. 9/23 - 9/29
 	* Manager: Celest Hayden
