@@ -17,8 +17,7 @@
 	* Goals:
 		1. Player movement with a static camera - player will be in the center of the screen with the map moving around them
 		2. Player sprite - design the sprite to display in the middle of the screen during gameplay
-		3. walls and stuff - basic collision detection and laying out a basic map to test with
-		4. Game loop - a basic main menu (game start), player moves, end game
+		3. Game loop - a basic main menu (game start), player moves, end game
 		...
 4. 9/23 - 9/29
 	* Manager: Celest Hayden
