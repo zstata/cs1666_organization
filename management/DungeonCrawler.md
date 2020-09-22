@@ -21,9 +21,9 @@
 1. 9/23 - 9/29
 	* Manager: Zach Stata
 	* Goals:
-		1. GOAL1
-		1. GOAL2
-		1. GOAL3
+		1. Get a basic enemy entitiy to appear on screen and move
+		2. Animate and implement a basic sword attack for the player character
+		3. Get a "staircase" on screen that will take the user character to another "level" when interacted with
 		...
 1. 9/30 - 10/6
 	* Manager: Destiny Thompson
