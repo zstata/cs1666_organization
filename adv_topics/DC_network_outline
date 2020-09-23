@@ -1,0 +1,31 @@
+What is Network Programming?
+  -Programs are able to communicate with each other over a computer network.
+  -Basics: Communication layers
+    -Physical
+    -Data link
+    -IP
+    -TCP/UDP 
+Origins
+  -Department of Defense (1960) first attempts
+  -Host based games (1960s)
+  -Creation of the Internet (1983)
+    -Peer to peer model
+    -Client to server model
+How does it work?
+  -Sockets (Connect, Bind, Listen, Accept)
+  -Networking Models/Architectures
+    -Peer-to-Peer
+    -Client - Server
+Networking Challenges
+  -Synchronization
+  -Information latency
+  -Bandwidth
+  -Security
+Famous Examples
+  -PLATO time-sharing system (1970s)
+  -Modern games: Call of Duty, World of Warcraft, literally every other game, Minecraft, etc.
+  -Video Chats: Zoom, Skype, FaceTime, etc.
+Usage in our game
+  -Goal: allow multiplayer players to coexist and traverse  dungeons together
+  -Main challenge: allowing the players to interact and move across the map while remaining effectively synchronized
+  -Team will work with AI and Procedural Generation groups to effectively communicate randomized drops and player progress for levels in the game.
